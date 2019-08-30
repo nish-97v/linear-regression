@@ -26,9 +26,8 @@ def fit_beta(df,deg):
 def mse(y,yPred):
     return np.mean((y-yPred)**2)
 
-# Loading training, validation and test data
+# Loading training and test data
 dfTrain = pandas.read_csv('Data_Train1.csv')
-#dfVal = pandas.read_csv('Data_Val1.csv')
 dfTest = pandas.read_csv('Data_Test1.csv')
 
 ############ TRAINING A MODEL
